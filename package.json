@@ -1,0 +1,25 @@
+{
+  "name": "testredis",
+  "version": "1.0.0",
+  "description": "Test redis server ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Redis",
+    "Config",
+    "Windows10"
+  ],
+  "author": "Rahul",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.4",
+    "os": "^0.1.1",
+    "redis": "^3.0.2"
+  }
+}
